@@ -185,8 +185,6 @@ public class HepsiburadaStepDef {
 
         Assert.assertEquals(cartPage.cartEmptyMessage.getText(), "Sepetin şu an boş");
 
-        System.out.println("Sepet boş olduğu kontrol edildi");
-
     }
 }
 
