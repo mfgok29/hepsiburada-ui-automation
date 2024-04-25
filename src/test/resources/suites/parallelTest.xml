@@ -2,7 +2,7 @@
 
 <suite name="Hepsiburada Automation" verbose="1" parallel="tests" >
 
-    <test name="Hepsiburada Smoke Test in Prod">
+    <test name="Hepsiburada Parallel Test">
         <classes>
             <class name="hepsiburada.runners.CukesRunner"/>
         </classes>
