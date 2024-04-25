@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Hepsiburada Automation" verbose="1" parallel="tests" >
+
+    <test name="Hepsiburada Smoke Test in Prod">
+        <classes>
+            <class name="hepsiburada.runners.CukesRunner"/>
+        </classes>
+    </test>
+
+</suite>
